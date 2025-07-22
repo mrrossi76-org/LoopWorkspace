@@ -301,9 +301,6 @@ jobs:
           basal_lock \
           live_activity \
           negative_insulin \
-          advancedDosingEnabled \ 
-          voiceSearchEnabled \
-          cameraAnalysisEnabled \
           remote_window
 
           # the final customization listed above CANNOT have a continuation character
