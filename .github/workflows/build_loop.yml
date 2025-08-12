@@ -302,7 +302,7 @@ jobs:
           basal_lock \
           live_activity \
           negative_insulin \
-          remote_window \
+          remote_window
           export SCRIPT_BRANCH=prelim_ai_food && export PATCH_BRANCH=prelim_ai_food && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/loopandlearn/lnl-scripts/$SCRIPT_BRANCH/CustomizationSelect.sh)" food_search
 
           # the final customization listed above CANNOT have a continuation character
