@@ -291,7 +291,7 @@ jobs:
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
           dexcom_upload_readings \
           future_carbs_4h \
-          low_carb_limit \
+          high_carb_limit \
           override_sens \
           now_line \
           lnl_icon \
@@ -302,7 +302,8 @@ jobs:
           basal_lock \
           live_activity \
           negative_insulin \
-          remote_window
+          remote_window \
+          export SCRIPT_BRANCH=prelim_ai_food && export PATCH_BRANCH=prelim_ai_food && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/loopandlearn/lnl-scripts/$SCRIPT_BRANCH/CustomizationSelect.sh)" food_search
 
           # the final customization listed above CANNOT have a continuation character
           # more customizations can be pasted after this line
